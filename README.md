@@ -11,7 +11,7 @@
 - [ ] Forklayın, klonlayın, klasöre girin.
 - [ ] `npx create-react-app kullanici-katilimi` komutuyla boş bir çalışma başlatın.
 - [ ] Oluşturulan `kullanici-katilimi` klasörüne girin.
-- [ ] `npm` yi kullanarak, aşağıdaki bağımlılıkları React appinize ekleyin:
+- [ ] `npm` iyi kullanarak, aşağıdaki bağımlılıkları React appinize ekleyin:
   - `yup`
   - `axios`
 - [ ] `Form.js` adında bir bileşen oluşturun, `App.js` dosyanıza import edin, ve bileşen için JSX lerinizi buraya yazın.
