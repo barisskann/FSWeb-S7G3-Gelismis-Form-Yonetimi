@@ -12,6 +12,7 @@ function Formİtem(params) {
             onChange={handleChange}
             id="isim"
             value={data.isim}
+            className="test-isim"
           />
         </div>
         <div>
@@ -21,6 +22,7 @@ function Formİtem(params) {
             id="email"
             value={data.email}
             onChange={handleChange}
+            className="test-email"
           />
         </div>
         <div>
@@ -31,6 +33,7 @@ function Formİtem(params) {
             value={data.sifre}
             onChange={handleChange}
             type="password"
+            className="test-sifre"
           />
         </div>
         <p>
@@ -42,9 +45,10 @@ function Formİtem(params) {
             checked={data.isTrue}
             value={!data.isTrue}
             onChange={handleChange}
+            className="test-checkbox"
           />
         </p>
-        <button disabled={res} type="submit">
+        <button className='test-button' disabled={res} type="submit">
           Gönder
         </button>
       </form>

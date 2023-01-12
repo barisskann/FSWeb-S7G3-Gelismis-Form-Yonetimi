@@ -2,6 +2,6 @@ const baslangıc = {
   isim: "",
   email: "",
   sifre: "",
-  isTrue: true,
+  isTrue: false,
 };
 export default baslangıc;
